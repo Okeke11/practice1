@@ -1,0 +1,113 @@
+*{
+    background-color: rgb(228, 231, 233);
+    font-family: sans-serif;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(213, 214, 226);
+    width: 700px;
+    height: 52px;
+    margin-left: 315px;
+    border-radius: 30px;
+
+    
+    /* outline: solid red; */
+}
+.topnav1{
+    margin-right: 300px;
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: rgb(213, 214, 226);
+}
+.topnav2{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    margin-top: 0px;
+    font-size: 20px;
+    transition: 0.7s;
+    background-color: rgb(213, 214, 226);
+    
+}
+.topnav3{
+    text-decoration: none;
+    color: black;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: 0.7s;
+    background-color: rgb(213, 214, 226);
+}
+.body{
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    margin-bottom: -30px;
+    line-height: 5px;
+}
+.bottom{
+    font-weight: 100px;
+    font-size: 20px;
+   padding-top: 10px;
+    text-align: center;
+    line-height: 10px;
+}
+.image{
+   align-items: center;
+   justify-content: center;
+   margin-left: 630px;
+   margin-top: 40px;
+   
+}
+.topnav2:hover{
+    color: rgb(28, 170, 54);
+}
+.topnav3:hover{
+    color: rgb(28, 170, 54);
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 1000;
+    
+}
+.last1{
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 17px;
+    background-color: rgb(0, 0, 0);
+}
+.last2{
+    text-decoration: none;
+    color: black;
+    width: 160px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 17px;
+    background-color: rgb(197, 221, 221);
+    outline: solid red;
+    outline-width: 2px;
+}
+.slide{
+    display: block;
+    /* width: 100px; */
+    /* height: 100px; */
+    margin: 0 auto;
+    margin-left: 600px;
+    margin-top: 15px;
+    transition: 0.4s;
+    align-items: center;
+    justify-content: center;
+}
